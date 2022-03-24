@@ -1,22 +1,9 @@
+import * as React from 'react';
+import { Text, View } from 'react-native';
+import Nav from '_navigation';
 
-import React from 'react';
-import {
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
-  StyleSheet,
-  Text,
-  useColorScheme,
-  View,
-} from 'react-native';
-
-export default function App(){
-  return(
-    <View>
-      <Text>
-        Welcome to the fintech App
-      </Text>
-    </View>
-  )
+export default function App() {
+  return (
+      <Nav/>
+  );
 }
-
